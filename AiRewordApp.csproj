@@ -8,4 +8,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Google.GenAI" Version="1.6.1" />
+  </ItemGroup>
+
 </Project>
