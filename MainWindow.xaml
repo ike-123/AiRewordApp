@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:AiRewordApp"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="#b1c9f0">
+        <TextBlock HorizontalAlignment="Center" Margin="0,27,0,0" TextWrapping="Wrap" Text="AI Paraphraser" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Center" Margin="0,112,0,0" TextWrapping="Wrap" Text="Write your text here" VerticalAlignment="Top"/>
         <TextBox x:Name="InputTextBox" HorizontalAlignment="Center" Margin="0,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="524" TextChanged="TextBox_TextChanged"/>
         <Button Name="GenerateButton" Content="Paraphrase" HorizontalAlignment="Center" Margin="0,197,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click"/>
